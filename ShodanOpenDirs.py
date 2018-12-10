@@ -20,7 +20,7 @@ def checkCreds(integer):
             counter = 0
             for result in results['matches']:
                 ip = result['ip_str']
-                print("" + counter + ".")
+                print(counter)
                 print('IP: {}'.format(result['ip_str']))
                 try:
                     ftp = FTP(ip)
